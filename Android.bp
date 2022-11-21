@@ -6,7 +6,7 @@ android_library {
         enabled: false,
     },
 
-    srcs: ["src/org/eu/materium/support/preferences/*.java"],
+    srcs: ["src/**/*.java"],
 
     static_libs: [
         "androidx.core_core",
